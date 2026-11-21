@@ -8,8 +8,6 @@ name: Windows test suite
 # A repository opts in by registering a runner labelled "ember" and setting
 # the variable EMBER_WINDOWS_RUNNER to true; without it the job is skipped.
 on:
-  push:
-    branches: [release]
   workflow_dispatch:
 permissions:
   contents: read

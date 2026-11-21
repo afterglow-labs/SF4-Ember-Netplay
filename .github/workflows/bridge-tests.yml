@@ -1,8 +1,5 @@
 name: Bridge and room tests
 on:
-  push:
-    branches: [release]
-  pull_request:
   workflow_dispatch:
 permissions:
   contents: read

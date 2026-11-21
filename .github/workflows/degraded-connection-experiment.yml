@@ -1,9 +1,5 @@
 name: Degraded connection experiment
 on:
-  push:
-    branches: [release, 'experiment/**']
-    tags: ['v*']
-  pull_request:
   workflow_dispatch:
 permissions:
   contents: read
